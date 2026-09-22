@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.logo {
+    filter: invert(100%);
+    max-width: 26px;
+    max-height: 26px;
+}
+
+#home {
+    background-color: #3c3c3c;
+    border-radius: 50%;
+    padding: 6px;
+    max-width: 26px;
+    max-height: 26px;
+    margin-left: 300px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+.flexaround{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Login-creds {
+    border: 2px solid white;
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+#install-in-cred {
+    color: white;
+    padding-left: 8px;
+    padding-right: 10px;
+    
+}
+
+#sign-in-creds {
+    color: white;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+#search-bar {
+    display: flex;
+    border-radius: 100px;
+    margin-right: 10px;
+    background-color: #b3b3b3;
+    width: 400px;
+    height: 40px;
+}
+
+.search {
+    height:5dvh;
+    width:75dvh;
+    background-color: #3c3c3c;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
+.search-icon {
+    height: 30px;
+    width: 30px;
+    filter: invert(100%);
+}
+    
+.search-text {
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#prem {
+    color: white;
+}
+
+.album {
+    color: white;
+}
+
+.album-container {
+    height: 100px;
+    width: 100px;
+}
+
+#albumsection {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#aside-bg {
+    background-color: #3c3c3c;
+}
+
+main {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+#Download {
+    color: black;
+}
